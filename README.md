@@ -16,3 +16,8 @@ There are four datasets:
 3) bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs). 
 4) bank.csv with 10% of the examples and 17 inputs, randomly selected from 3 (older version of this dataset with less inputs). 
 The smallest datasets are provided to test more computationally demanding machine learning algorithms (e.g., SVM). 
+
+Observations:
+The accuracy of the different classification models have gone by 2-3 percent as compared to the results in the previous section. From the confusion matrices, we can also observe that the classifiers are now predicting label 1 a lot more often than in the previous case, when we were working with a limited set of features.
+
+Even after hyperpaprameter tuning, it is difficult to major improvements in the accuracy of the different classification models. From the baseline model, we see that 88% of the samples belong to the same class. Hence the dataset is highly skewed towards samples from one class. This makes it challenging for AI models to learn how to accurately predict.
